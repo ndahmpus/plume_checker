@@ -56,27 +56,27 @@
 <div align="center">
 
 ### 🔍 **Wallet Input & Search**
-<img src="screenshots/01-wallet-input.png" alt="Wallet Input Screen" width="300">
+<img src="screenshots/screenshots01-wallet-input.png" alt="Wallet Input Screen" width="300">
 
 *Clean, futuristic interface for entering wallet addresses with history*
 
 ### 📊 **Dashboard & Statistics** 
-<img src="screenshots/02-dashboard.png" alt="Dashboard Statistics" width="300">
+<img src="screenshots/screenshots02-dashboard.png" alt="Dashboard Statistics" width="300">
 
 *Comprehensive portal statistics showing XP, rankings, and TVL data*
 
 ### 💼 **Portfolio Analytics**
-<img src="screenshots/03-portfolio.png" alt="Portfolio Analytics" width="300">
+<img src="screenshots/screenshots03-portfolio.png" alt="Portfolio Analytics" width="300">
 
 *Real-time portfolio tracking with token distribution and diversity metrics*
 
 ### 🏆 **Tier System & Badges**
-<img src="screenshots/04-tier-system.png" alt="Tier System" width="300">
+<img src="screenshots/screenshots04-tier-system.png" alt="Tier System" width="300">
 
 *Gamification features with tier progression and badge collection*
 
 ### 💰 **DeFi Integration**
-<img src="screenshots/05-defi-stats.png" alt="DeFi Statistics" width="300">
+<img src="screenshots/screenshots05-defi-stats.png" alt="DeFi Statistics" width="300">
 
 *Advanced DeFi analytics including swap data and yield farming metrics*
 
@@ -126,8 +126,8 @@ lib/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/plume_portal.git
-   cd plume_portal
+   git clone https://github.com/ndahmpus/plume_checker.git
+   cd plume_checker
    ```
 
 2. **Install dependencies**
@@ -369,8 +369,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/plume_portal/issues)
-- **Email**: your-email@example.com
+- **GitHub Issues**: [Create an issue](https://github.com/ndahmpus/plume_checker/issues)
+- **Email**: Contact via GitHub profile
 - **Documentation**: Check the code comments and this README
 
 ---
