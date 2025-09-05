@@ -1,0 +1,59 @@
+name: portal_checker
+description: "Portal Checker - Plume Portal Statistics and Wallet Analytics"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core dependencies
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3  # For wallet history storage
+  http: ^1.2.1                # For API calls to Plume Portal
+  web3dart: ^2.7.2            # For blockchain interactions
+  
+  # State Management
+  provider: ^6.1.2            # For provider pattern
+  
+  # JSON Serialization
+  json_annotation: ^4.8.1     # For model serialization
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  # Dependensi development yang sudah ada
+  flutter_lints: ^5.0.0
+  
+  # JSON Serialization Build Tools
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/plume_logo.png
+    - assets/logo.png
+    - assets/goon-profile.png
+    - assets/tier/
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Orbitron-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Orbitron-Bold.ttf
+          weight: 700
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  remove_alpha_ios: true

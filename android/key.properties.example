@@ -1,0 +1,20 @@
+# Android Keystore Configuration Template
+# Copy this file to key.properties and fill in your actual values
+# NEVER commit the actual key.properties file to version control!
+
+# Path to your keystore file (relative to android directory)
+storeFile=keystore/your-keystore.jks
+
+# Keystore password
+storePassword=YOUR_STORE_PASSWORD
+
+# Key alias
+keyAlias=YOUR_KEY_ALIAS
+
+# Key password
+keyPassword=YOUR_KEY_PASSWORD
+
+# Instructions:
+# 1. Copy this file: cp key.properties.example key.properties
+# 2. Replace all YOUR_* values with your actual keystore information
+# 3. Make sure key.properties is in .gitignore (it should be already)
