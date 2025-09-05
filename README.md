@@ -178,8 +178,6 @@ flutter build ios --release
 4. **Navigate sections** - Explore different data categories
 5. **Cache system** - Data is cached for 5 minutes for optimal performance
 
-### **Key Features Usage**
-
 #### **Portfolio Analysis**
 - Real-time balance tracking
 - Token distribution charts
