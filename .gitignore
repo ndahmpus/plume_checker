@@ -64,3 +64,6 @@ android/local.properties
 # IDE specific files
 .vscode/
 *.code-workspace
+
+# APK files (too large for GitHub)
+*.apk
