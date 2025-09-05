@@ -166,39 +166,6 @@ flutter build appbundle --release
 flutter build ios --release
 ```
 
----
-
-## 🔧 Configuration
-
-### **Android Signing** (For Release Builds)
-
-1. **Create keystore** (if you don't have one):
-   ```bash
-   keytool -genkey -v -keystore android/keystore/your-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias your-key-alias
-   ```
-
-2. **Configure signing**:
-   - Copy `android/key.properties.example` to `android/key.properties`
-   - Update with your keystore information:
-     ```properties
-     storeFile=keystore/your-keystore.jks
-     storePassword=YOUR_STORE_PASSWORD
-     keyAlias=YOUR_KEY_ALIAS
-     keyPassword=YOUR_KEY_PASSWORD
-     ```
-
-3. **Build signed APK**:
-   ```bash
-   flutter build apk --release
-   ```
-
-### **Environment Configuration**
-
-The app connects to the following APIs:
-- **Plume Portal API**: `https://portal-backend.plume.technology/api/v1/`
-- **Nucleus Earn API**: `https://backend.nucleusearn.io/v1/plume`
-
-No additional API keys required for basic functionality.
 
 ---
 
@@ -316,11 +283,6 @@ flutter test --coverage
 - Use Flutter Inspector for UI debugging
 - Network calls are logged in debug mode
 
----
-
-## 🚨 Troubleshooting
-
-### **Common Issues**
 
 #### **Build Errors**
 ```bash
