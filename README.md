@@ -56,27 +56,27 @@
 <div align="center">
 
 ### 🔍 **Wallet Input & Search**
-<img src="screenshots/screenshots01-wallet-input.png" alt="Wallet Input Screen" width="300">
+<img src="screenshots/screenshots01-wallet-input.jpg" alt="Wallet Input Screen" width="300">
 
 *Clean, futuristic interface for entering wallet addresses with history*
 
 ### 📊 **Dashboard & Statistics** 
-<img src="screenshots/screenshots02-dashboard.png" alt="Dashboard Statistics" width="300">
+<img src="screenshots/screenshots02-dashboard.jpg" alt="Dashboard Statistics" width="300">
 
 *Comprehensive portal statistics showing XP, rankings, and TVL data*
 
 ### 💼 **Portfolio Analytics**
-<img src="screenshots/screenshots03-portfolio.png" alt="Portfolio Analytics" width="300">
+<img src="screenshots/screenshots03-portfolio.jpg" alt="Portfolio Analytics" width="300">
 
 *Real-time portfolio tracking with token distribution and diversity metrics*
 
 ### 🏆 **Tier System & Badges**
-<img src="screenshots/screenshots04-tier-system.png" alt="Tier System" width="300">
+<img src="screenshots/screenshots04-tier-system.jpg" alt="Tier System" width="300">
 
 *Gamification features with tier progression and badge collection*
 
 ### 💰 **DeFi Integration**
-<img src="screenshots/screenshots05-defi-stats.png" alt="DeFi Statistics" width="300">
+<img src="screenshots/screenshots05-defi-stats.jpg" alt="DeFi Statistics" width="300">
 
 *Advanced DeFi analytics including swap data and yield farming metrics*
 
